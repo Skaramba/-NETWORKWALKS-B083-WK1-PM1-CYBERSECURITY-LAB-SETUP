@@ -1,6 +1,6 @@
 # B083-WK1-PM1-CYBERSECURITY-LAB-SETUP
 **Building a virtual lab in VirtualBox for learning penetration testing and ethical hacking.**
-![Kali](kali_desktop.png)
+
 <img src="Kali Linux desktop.png" alt="Kali Linux desktop" width="850" height="500">
 
 # Project Overview
