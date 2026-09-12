@@ -1,6 +1,6 @@
 # B083-WK1-PM1-CYBERSECURITY-LAB-SETUP
 **Building a virtual lab in VirtualBox for learning penetration testing and ethical hacking.**
-<img src="Kali Linux desktop.png" alt="Kali Linux desktop">
+![Kali](kali_desktop.png)
 
 # Project Overview
 This project sets up a virtual cybersecurity lab using VirtualBox and Kali Linux. 
@@ -62,7 +62,7 @@ VirtualBox was installed as the hypervisor.
 A dedicated NAT Network (10.x.x.x) was created in VirtualBox.
 
 **Configuration**:
-<img src="NAT Network creation.png" alt="NAT Network creation">
+![NAT Net](NAT_Net_creation.png)
 
 Network Name: NatNetwork 
 IPv4 Prefix: 10.0.0.0/24 
@@ -74,7 +74,7 @@ The Kali Linux virtual machine was downloaded from the official Kali Linux websi
 
 The VM network adapter was configured as follows:
 
-<img src="Assigning created network to VM.png" alt="Assigning created network to VM">
+![VM Net](Assi_net_VM.png)
 
 **Adapter 1**
 Attached to: NAT Network
@@ -91,7 +91,7 @@ Configured a shared folder to allow file transfer between the host OS and the VM
  **5. Configure the Kali Linux Network**
 Kali VM was configured with a static ip address as follows:
 
-<img src="VN network setup.png" alt="VN network setup">
+![VN Net Set](VN_net_setup.png)
 
 IP Address: 10.0.0.2
 Subnet Mask: 255.255.255.0
@@ -114,7 +114,7 @@ Switched network off and on then ping Googles IP again successfully.
 I then went to the browser and performed a search on Google. I also opened YouTube and searched for videos successfully.
 I shutdown the VM and took a snapshot.
 
-<img src="Successful internet connection.png" alt="Successful internet connection">
+![Internet Conn](Succ_internet_conn.png)
 
 # What I Learned
 Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
