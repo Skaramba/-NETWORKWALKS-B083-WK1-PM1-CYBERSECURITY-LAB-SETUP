@@ -73,7 +73,9 @@ IPv6: Disabled
 The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
 
 The VM network adapter was configured as follows:
+
 <img src="Assigning created network to VM.png" alt="Assigning created network to VM">
+
 **Adapter 1**
 Attached to: NAT Network
 Network:     NatNetwork
@@ -88,7 +90,9 @@ Configured a shared folder to allow file transfer between the host OS and the VM
 
  **5. Configure the Kali Linux Network**
 Kali VM was configured with a static ip address as follows:
+
 <img src="VN network setup.png" alt="VN network setup">
+
 IP Address: 10.0.0.2
 Subnet Mask: 255.255.255.0
 Gateway: 10.0.0.1
@@ -109,6 +113,7 @@ I went back to network settings and configured the DNS for the ipv4 address to u
 Switched network off and on then ping Googles IP again successfully.
 I then went to the browser and performed a search on Google. I also opened YouTube and searched for videos successfully.
 I shutdown the VM and took a snapshot.
+
 <img src="Successful internet connection.png" alt="Successful internet connection">
 
 # What I Learned
